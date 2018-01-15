@@ -1729,3 +1729,27 @@
 	{
 		color: #fe4c50;
 	}
+	.sous_categorie_navigation {
+		position: absolute;
+		left: 250px;
+		top: 10px;
+	}
+	.sous_categorie_navigation a {
+		padding: 9px;
+		font-size: 18px;
+		font-weight: normal;
+		color: #fff;
+	}
+	.sous_categorie_navigation .selected_item {
+		border-bottom: 5px solid #fff;
+	}
+	.sous_categorie_navigation .selected_item > a {
+
+		font-size: 700;
+	}
+	.sous_categorie_page {
+		margin-top: 50px;
+		margin-bottom: -50px;
+		font-size: 25px;
+		font-weight: 500;
+	}
